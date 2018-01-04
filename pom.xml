@@ -12,13 +12,14 @@
         <module>service-miya</module>
         <module>service-hello</module>
         <module>spring-session</module>
-        <module>spring-turbine</module>
+        <module>spring-hytrix-turbine</module>
         <module>eureka-server-center</module>
         <module>eureka-server-provider</module>
         <module>eureka-server-provider-2</module>
         <module>eureka-consumer-feign</module>
         <module>eureka-ribbon-rest</module>
         <module>eureka-ribbon-rest-hystrix</module>
+        <module>redis-setnx-lock</module>
     </modules>
     <packaging>pom</packaging>
 

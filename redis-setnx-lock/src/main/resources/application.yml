@@ -1,0 +1,9 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: redis-setnx-lock
+  redis:
+    host: **
+    port: 6379
+    password: **
