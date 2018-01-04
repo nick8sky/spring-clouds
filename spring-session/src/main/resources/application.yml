@@ -1,0 +1,8 @@
+server:
+  port: 8990
+spring:
+  application:
+    name: service-session
+  redis:
+    host: 47.96.157.114
+    port: 6379

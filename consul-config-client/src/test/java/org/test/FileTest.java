@@ -28,6 +28,7 @@ public class FileTest {
         while((s = br.readLine())!=null ){//使用readLine方法，一次读一行
 
             String se = s.replaceAll("\\d+","");
+            se = se.replace(".","");
             System.out.println(se.trim());
 
         }

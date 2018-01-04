@@ -11,6 +11,7 @@
         <module>service-hi</module>
         <module>service-miya</module>
         <module>service-hello</module>
+        <module>spring-session</module>
     </modules>
     <packaging>pom</packaging>
 
