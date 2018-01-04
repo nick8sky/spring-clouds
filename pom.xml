@@ -12,6 +12,12 @@
         <module>service-miya</module>
         <module>service-hello</module>
         <module>spring-session</module>
+        <module>spring-turbine</module>
+        <module>eureka-server-center</module>
+        <module>eureka-server-provider</module>
+        <module>eureka-server-provider-2</module>
+        <module>eureka-consumer-feign</module>
+        <module>eureka-ribbon-rest</module>
     </modules>
     <packaging>pom</packaging>
 

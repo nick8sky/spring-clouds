@@ -1,5 +1,5 @@
 server:
-  port: 8990
+  port: 8991
 spring:
   application:
     name: service-session
