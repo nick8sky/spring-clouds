@@ -20,6 +20,8 @@
         <module>eureka-ribbon-rest</module>
         <module>eureka-ribbon-rest-hystrix</module>
         <module>redis-setnx-lock</module>
+        <module>redis-redlock</module>
+        <module>springboot-local-config</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -50,6 +52,13 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.1</version>
+        </dependency>
+        <!--单元测试依赖 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -83,13 +92,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--spring-boot单元测试依赖 -->
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.10</version>
-                <scope>test</scope>
-            </dependency>
+
 
             <!-- 日志文件管理包 -->
             <dependency>

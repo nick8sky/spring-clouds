@@ -1,0 +1,9 @@
+server:
+  port: 9092
+spring:
+  application:
+    name: redis-redlock
+  redis:
+    host: **
+    port: 6379
+    password: **
