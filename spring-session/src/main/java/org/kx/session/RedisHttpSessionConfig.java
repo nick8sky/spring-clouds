@@ -20,8 +20,8 @@ public class RedisHttpSessionConfig {
 
         JedisConnectionFactory connectionFactory = new JedisConnectionFactory();
         connectionFactory.setPort(6379);
-        connectionFactory.setHostName("47.96.157.114");
-        connectionFactory.setPassword("1017~Fulin2017");
+        connectionFactory.setHostName("**");
+        connectionFactory.setPassword("**");
         return connectionFactory;
     }
 
