@@ -22,6 +22,8 @@
         <module>redis-setnx-lock</module>
         <module>redis-redlock</module>
         <module>springboot-local-config</module>
+        <module>springboot-rocketmq</module>
+        <module>cloud-zookeeper</module>
     </modules>
     <packaging>pom</packaging>
 
