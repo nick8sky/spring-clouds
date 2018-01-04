@@ -18,6 +18,7 @@
         <module>eureka-server-provider-2</module>
         <module>eureka-consumer-feign</module>
         <module>eureka-ribbon-rest</module>
+        <module>eureka-ribbon-rest-hystrix</module>
     </modules>
     <packaging>pom</packaging>
 

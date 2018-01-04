@@ -1,0 +1,29 @@
+server:
+  port: 8911
+
+eureka:
+  client:
+    serviceUrl:
+          defaultZone: http://localhost:8010/eureka/
+
+#spring:
+#  profiles:
+#    active: dev
+#  application:
+#    name: service-feign
+  ###################### consul ###########################
+#  cloud:
+#      consul:
+#        host: 192.168.1.102
+#        port: 8500
+#        discovery:
+#           healthCheckUrl: http://localhost:${server.port}/health
+#           healthCheckInterval: 15s
+#           instance-id: service-feign
+#           enabled: true
+#           heartbeat:
+#             enabled: true
+
+spring:
+  application:
+      name: service-feign
