@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-lock</artifactId>
+    <artifactId>redis-setnx-lock</artifactId>
     <packaging>jar</packaging>
 
     <name>spring-cloud-lock</name>

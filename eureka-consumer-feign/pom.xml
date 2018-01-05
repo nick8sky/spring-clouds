@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>euraka-consumer-feign</artifactId>
+    <artifactId>eureka-consumer-feign</artifactId>
     <packaging>jar</packaging>
 
     <name>euraka-consumer-feign</name>
