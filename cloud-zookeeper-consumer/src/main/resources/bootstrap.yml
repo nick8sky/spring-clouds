@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    zookeeper:
+        connect-string: ***:2181
+        discovery:
+          register: false
+
+
+
+
+
+        #断路器，断路器跳闸后等待多长时间重试
+        #hystrix.command.default.circuitBreaker.sleepWindowInMilliseconds=1000
+        #断路器，请求发出后多长时间超时
+        #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=5000
+        #ribbon连接到服务端的超时时间
+        #ribbon.ConnectTimeout=5000
+        #ribbon连接到服务端后，多长时间没有获取到响应的超时时间
+        #ribbon.ReadTimeout=5000
+        #bootstrap.properties
+
+        #spring.cloud.zookeeper.connectString=192.168.179.200:2181
+        #不向zookeeper注册
+        #spring.cloud.zookeeper.discovery.register=false

@@ -23,7 +23,8 @@
         <module>redis-redlock</module>
         <module>springboot-local-config</module>
         <module>springboot-rocketmq</module>
-        <module>cloud-zookeeper</module>
+        <module>cloud-zookeeper-provider</module>
+        <module>cloud-zookeeper-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
