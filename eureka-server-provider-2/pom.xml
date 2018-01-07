@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>euraka-server-provider-2</artifactId>
+    <artifactId>eureka-server-provider-2</artifactId>
     <packaging>jar</packaging>
 
     <name>euraka-server-provider-2</name>
