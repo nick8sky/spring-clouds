@@ -25,6 +25,10 @@
         <module>springboot-rocketmq</module>
         <module>cloud-zookeeper-provider</module>
         <module>cloud-zookeeper-consumer</module>
+        <module>cloud-task</module>
+        <module>springboot-elasticjob</module>
+        <module>consul-service-provider</module>
+        <module>consul-service-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -63,6 +67,24 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <!--<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.7.12</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+      <!--  <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.2</version>
+        </dependency>-->
+        <!-- 日志文件管理包 -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

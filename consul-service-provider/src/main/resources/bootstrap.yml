@@ -1,0 +1,28 @@
+server:
+  port: 30009
+spring:
+  profiles:
+    active: dev
+  application:
+    name: consul-service-provider
+  ###################### consul ###########################
+  cloud:
+      consul:
+        host: 192.168.1.101
+        #192.168.1.107
+        port: 8500
+        discovery:
+           healthCheckUrl: http://localhost:${server.port}/health
+           healthCheckInterval: 15s
+           instance-id: consul-service-provider
+           enabled: true
+           heartbeat:
+             enabled: true
+ #  在consul kv新建 config/consul-info/configuration 是consul-info项目的配置信息
+ #consul-info 是spring: application: name 的取值
+#userInfo:
+#  lw:
+#    name: LiaoWenn
+#    sex: 女
+#    age: 24
+#    like: jazz
