@@ -33,6 +33,8 @@
         <module>cloud-stream</module>
         <module>spring-cloud-bus</module>
         <module>cloud-zuul</module>
+        <module>consul-service-provider-2</module>
+        <module>boot-drools</module>
     </modules>
     <packaging>pom</packaging>
 

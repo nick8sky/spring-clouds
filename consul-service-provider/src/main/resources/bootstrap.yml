@@ -8,7 +8,7 @@ spring:
   ###################### consul ###########################
   cloud:
       consul:
-        host: 192.168.1.101
+        host: localhost
         #192.168.1.107
         port: 8500
         discovery:

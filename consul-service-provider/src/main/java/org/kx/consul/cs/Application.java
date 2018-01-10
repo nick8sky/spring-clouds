@@ -1,5 +1,6 @@
 package org.kx.consul.cs;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -11,7 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableDiscoveryClient
 @RestController
 public class Application {
-
+    @Value("${server.port}")
+    private String port;
 
 
     @RequestMapping("/")
@@ -21,8 +23,9 @@ public class Application {
 
     @RequestMapping("/hi/{id}")
     public String home1(@PathVariable("id") Integer customerId) {
-        return "Hello world local" +customerId;
+        return "Hello world "+port+"  " +customerId;
     }
+
 
 
     public static void main(String[] args) {

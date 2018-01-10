@@ -1,0 +1,16 @@
+package com.rules
+
+import org.kx.rules.Product
+
+rule Offer4Diamond
+    when
+        productObject : Product(type == Product.DIAMOND)
+    then
+        productObject.setDiscount(15);
+    end
+rule Offer4Gold
+    when
+        productObject: Product(type == Product.GOLD)
+    then
+        productObject.setDiscount(25);
+    end
