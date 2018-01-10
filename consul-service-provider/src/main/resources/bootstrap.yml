@@ -14,7 +14,7 @@ spring:
         discovery:
            healthCheckUrl: http://localhost:${server.port}/health
            healthCheckInterval: 15s
-           instance-id: consul-service-provider
+           instance-id: consul-service-provider-1
            enabled: true
            heartbeat:
              enabled: true

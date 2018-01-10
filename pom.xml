@@ -29,6 +29,10 @@
         <module>springboot-elasticjob</module>
         <module>consul-service-provider</module>
         <module>consul-service-consumer</module>
+        <module>cloud-flow</module>
+        <module>cloud-stream</module>
+        <module>spring-cloud-bus</module>
+        <module>cloud-zuul</module>
     </modules>
     <packaging>pom</packaging>
 
