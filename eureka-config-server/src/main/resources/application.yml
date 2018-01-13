@@ -1,0 +1,32 @@
+server:
+  port: 8001 #服务端口
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/ #eureka服务注册地址
+
+##配置管理
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nick8sky/SpringcloudConfig/
+          #url of repository  仓库地址
+          searchPaths: myconf
+          #仓库下一级目录
+          #username:
+          #password:
+      label: master
+  application:
+    name: eureka-config-server
+  rabbitmq:
+    host: 192.168.0.101
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  security:
+    enabled: false
