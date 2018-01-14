@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @AutoConfigurationPackage
 @EnableConfigServer  //启动类添加@EnableConfigServer，激活对配置中心的支持
 /**
