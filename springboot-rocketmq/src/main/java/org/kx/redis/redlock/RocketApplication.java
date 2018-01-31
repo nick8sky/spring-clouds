@@ -30,8 +30,11 @@ public class RocketApplication {
     @Autowired
     DefaultMQProducer appProducer;
 
-    @RequestMapping("/")
-    public String callHome() throws InterruptedException, RemotingException, MQClientException, MQBrokerException {
+
+
+
+    @RequestMapping("/send")
+    public String send() throws InterruptedException, RemotingException, MQClientException, MQBrokerException {
         Message msg = new Message("TEST",// topic
                 "TEST",// tag
                 "KKK",//key用于标识业务的唯一性

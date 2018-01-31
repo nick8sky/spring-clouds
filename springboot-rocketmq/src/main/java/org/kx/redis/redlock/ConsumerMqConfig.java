@@ -27,7 +27,7 @@ public class ConsumerMqConfig {
     @Autowired
     private MessageHandler msgConsumeComponent;
 
-    @Bean("bizGatewayConsumer")
+    @Bean("appConsumer")
     public DefaultMQPushConsumer getRocketMQConsumer(){
         if (StringUtils.isBlank(groupName)){
             throw new RuntimeException("groupName is null !!!");
